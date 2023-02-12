@@ -1,0 +1,93 @@
+body{
+    background-color: #484CEC;
+}
+.header{
+    background-color: #302C44;
+    height: 30rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.discordicon{
+    display: flex;
+    padding-top: 5px;
+    
+}
+.header img{
+    padding: 15px 15px 15px 15px;
+    height: 35px;
+    width: 35px;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.header nav p{
+    padding-top: 16px;
+}
+
+.header nav p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-btn{
+    margin-top: 20px;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    background-color: #CBCDDC;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-color: red;
+}
+
+.main{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.main h1{
+    color: white;
+    font-size: 2rem;
+}
+
+.main p{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.main .download{
+    height: 2.5rem;
+    width: 13rem;
+    border-radius: 1rem;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main .download:hover{
+    background-color: rgb(232, 73, 73);
+}
+
+.main .discord{
+    height: 2.5rem;
+    width: 13rem;
+    border-radius: 1.5rem;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
